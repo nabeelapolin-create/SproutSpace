@@ -430,3 +430,13 @@ button {
 .dashboard h1 {
     margin-top: 0 !important;
 }
+
+/* Section label styling */
+.section-label {
+    color: #7D9477;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
