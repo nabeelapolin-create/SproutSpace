@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SproutSpace | Grow at Your Own Pace</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<main class="welcome" id="welcome-screen">
+    <h1>Welcome to SproutSpace 🌱</h1>
+    <p>Your space to plan, focus, and grow.</p>
+    <button class="start-button">Enter SproutSpace</button>
+</main>
+
+<section id="workspace" hidden>
+    <aside class="sidebar">
+        <h2>🌱 SproutSpace</h2>
+
+  <nav>
+    <button class="active" id="home-button">Home</button>
+    <button id="tasks-button">Tasks</button>
+    <button id="planner-button">Planner</button>
+    <button id="notes-button">Notes</button>
+    <button id="goals-button">Goals</button>
+    <button id="focus-button">Focus</button>
+    <button id="lofi-button">Lo-Fi Lounge</button>
+</nav>
+    </aside>
+
+  <main class="dashboard" id="home-section">
+    <p class="section-label">YOUR HOME</p>
+    <h1>Good morning! 🌿</h1>
+    <p>A little progress is still progress. Take today at your own pace.</p>
+</main>
+
+<div id="lofi-player" hidden>
+    <div class="lofi-header">
+        <div>
+            <h3>Lo-Fi Lounge 🎧</h3>
+            <p>Your little space to unwind.</p>
+        </div>
+        <button id="close-lofi" aria-label="Close music player">×</button>
+    </div>
+
+    <div class="lofi-track">
+        <div class="lofi-track-icon">♫</div>
+        <div>
+            <h4>Peaceful Moments</h4>
+            <p>Lo-fi beats for your day</p>
+        </div>
+    </div>
+
+    <div class="lofi-controls">
+        <button id="play-lofi">▶ Play music</button>
+    </div>
+</div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
